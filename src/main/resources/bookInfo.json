@@ -1,0 +1,105 @@
+[
+  {
+    "name": "*书号",
+    "field": "bookCode",
+    "parser": "bookCode",
+    "verifier": "bookCode"
+  },
+  {
+    "name": "*图书名称",
+    "field": "bookName",
+    "parser": "string"
+  },
+  {
+    "name": "*图书拼音",
+    "field": "bookAbc",
+    "parser": "string"
+  },
+  {
+    "name": "*国家标准分类",
+    "field": "standardCategory",
+    "parser": "string"
+  },
+  {
+    "name": "*大类",
+    "field": "bigCategoryId",
+    "parser": "bigCategory"
+  },
+  {
+    "name": "*小类",
+    "field": "smallCategoryId",
+    "parser": "smallCategory"
+  },
+  {
+    "name": "图书简介",
+    "field": "content",
+    "parser": "string"
+  },
+  {
+    "name": "*封面",
+    "field": "coverPath",
+    "parser": "coverPath"
+  },
+  {
+    "name": "*文件路径",
+    "field": "filePath",
+    "parser": "filePath"
+  },
+  {
+    "name": "试读文件路径",
+    "field": "tryFilePath",
+    "parser": "tryFilePath"
+  },
+  {
+    "name": "试读百分比",
+    "field": "tryPerc",
+    "parser": "Double"
+  },
+  {
+    "name": "试读章节数",
+    "field": "tryChapter",
+    "parser": "Int"
+  },
+  {
+    "name": "*总章节数",
+    "field": "totalChapter",
+    "parser": "Int"
+  },
+  {
+    "name": "*图书总字数",
+    "field": "totalWord",
+    "parser": "Int"
+  },
+  {
+    "name": "*图书作者",
+    "field": "author",
+    "parser": "string"
+  },
+  {
+    "name": "签约作者",
+    "field": "authorId",
+    "parser": "author"
+  },
+  {
+    "name": "*授权终止时间",
+    "field": "endTime",
+    "parser": "date"
+  },
+  {
+    "name": "*出版时间",
+    "field": "publishTime",
+    "parser": "date"
+  },
+  {
+    "name": "纸质书价格",
+    "field": "paperPrice",
+    "parser": "Double"
+  },
+  {
+    "name": "*电子书价格",
+    "field": "unitprice",
+    "parser": "Double"
+  }
+]
+
+
